@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment on HTML Tables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-container">
+        <img id="kalvium-logo" src="https://kalvium.com/wp-content/uploads/2023/04/Kalvium-Logo-SVG.svg" alt="">
+        <div class="right-container">
+            <div class="svg-container">
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+            </div>
+            <h3>Student</h3>
+            <h3>Courses</h3>
+        </div>
+    </div>
+
+    <div class="main-table-div">
+        <h1><em>TIME TABLE <span>📋</span></em></h1>
+        <table>
+            <tr>
+                <th>Day/Period</th>
+                <th>I <br> 9am - 10am</th>
+                <th>II <br> 10am - 11am</th>
+                <th>III <br> 11:15am - 12:15pm</th>
+                <th>IV <br> 12:15pm - 1:15pm</th>
+                <th>1:15pm - 2:00pm</th>
+                <th>V <br> 2:00pm - 5:00pm</th>
+                <th>VI <br> 5:30pm - 6:30pm</th>
+            </tr>
+
+            <tr>
+                <td class="day">Monday</td>
+                <td>Subject2</td>
+                <td>Subject4</td>
+                <td>Subject6</td>
+                <td>Subject8</td>
+                <td class="lunch-row" rowspan="6">
+                    <h2>L <br> U <br> N <br> C <br> H</h2>
+                </td>
+                <td>Subject1</td>
+                <td>Subject5</td>
+            </tr>
+
+            <tr>
+                <td class="day">Tuesday</td>
+                <td>Subject8</td>
+                <td>Subject2</td>
+                <td>Subject6</td>
+                <td>Subject3</td>
+                <td>Subject4</td>
+                <td>Subject7</td>
+            </tr>
+
+            <tr>
+                <td class="day">Wednesday</td>
+                <td>Subject4</td>
+                <td>Subject5</td>
+                <td>Subject3</td>
+                <td>Subject1</td>
+                <td>Subject2</td>
+                <td>Subject6</td>
+            </tr>
+
+            <tr>
+                <td class="day">Thursday</td>
+                <td>Subject1</td>
+                <td>Subject2</td>
+                <td>Subject6</td>
+                <td>Subject5</td>
+                <td>Subject3</td>
+                <td>Subject8</td>
+            </tr>
+
+            <tr>
+                <td class="day">Friday</td>
+                <td>Subject8</td>
+                <td>Subject4</td>
+                <td>Subject5</td>
+                <td>Subject6</td>
+                <td>Subject2</td>
+                <td>Subject1</td>
+            </tr>
+
+            <tr class="last-row">
+                <td class="day">Saturday</td>
+                <td>Subject2</td>
+                <td>Subject6</td>
+                <td>Subject4</td>
+                <td>Subject3</td>
+                <td>Subject1</td>
+                <td>Subject7</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
